@@ -1,0 +1,41 @@
+.nyc_output/
+coverage/
+node_modules/
+npm-debug.log
+package-lock.json
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+ test/*.log
+node_modules/
+node_modules/*
+npm-debug.log
+.*.sw[op]
+test/fixtures/*.log
+.idea
+.vscode
