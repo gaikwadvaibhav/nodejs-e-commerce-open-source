@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Page not found</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        /* body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        .main-header {
+            width: 100%;
+            height: 3.5rem;
+            background-color: #1976d2;
+            padding: 0 1.5rem;
+        }
+
+        .main-header-nav {
+            height: 100%;
+            align-items: center;
+            display: flex;
+        }
+
+        .main-header-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .main-header_item {
+            margin: 0 1rem;
+            padding: 0;
+        }
+
+        .main-header_item a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .main-header_item a:hover,
+        .main-header_item a:active,
+        .main-header_item a.active {
+            color: orange;
+            /* background: lightgrey;
+                padding: 1rem; */
+        } */
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            padding: 2rem;
+            margin-top: 20px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
+
 <body>
-    <h1> Page Not Found! </h1>
+    <header class="main-header">
+        <nav class="main-header-nav">
+            <ul class="main-header-list">
+                <li class="main-header_item"> <a href="/"> Shop </a> </li>
+                <li class="main-header_item"> <a href="/admin/add-product"> Add product </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="card">
+        <div class="card-body">
+            <h5> Ooops .... Page not found! </h5>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
